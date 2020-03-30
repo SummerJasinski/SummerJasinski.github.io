@@ -1,14 +1,20 @@
-body {
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+  body {
   background-color: #EDEAE5;
   margin: 0px;
   padding:0;
-  font-family:Lucida Sans, Veranda, Sans-serif;
+  font-family: , Veranda, Sans-serif;
   
 }
   .content{
-  margin-top: 30px;
+  margin-top: 40px;
   }
   .c-div-introblock{
+  background-image: url("clouds.jpg"); /* The image used - important! */
+  background-size: cover;
   max-width: 1000px;
   display: flex;
   justify-content: center;
@@ -19,17 +25,54 @@ body {
   }
   .c-h1-introduction{
   font-family: Verdana, Lucida Sans,  Sans-serif;
-  font-size:10vw;
+  font-size:2vw;
   color: #ffffff;
-  text-align: left;
+  
   line-height: 6pt;
-    
+   margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 36%; /* Position text in the middle */
+  left: 14%; /* Position text in the middle */
+  transform: translate(-25%, -25%); /* Position text in the middle */
+  
+  
 }
-  .c-h2-name{font-family:  Verdana, Lucida Sans, Sans-serif;
-  font-size:14vw;
-  color: #026670;
-  text-align: left;
-  line-height: 6pt;}
+  .c-h2-name{
+  font-family: Verdana, Lucida Sans,  Sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */}
+  
+  .c-h1-introduction-bottom{
+  font-family: Verdana, Lucida Sans,  Sans-serif;
+  font-size:2vw;
+  color: #ffffff;
+  
+  line-height: 6pt;
+  
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 60%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-25%, -25%); /* Position text in the middle */
+  
+  }
   
   .c-div-about-me{
   max-width: 1000px;
@@ -58,8 +101,8 @@ body {
   
   .c-nav-bar{
   overflow: hidden;
-  background-color: #D4A59A;
-  font-size: 3vw;
+  background-color: #ffffff;
+  font-size: 9pt;
   text-transform: uppercase;
   text-align: center;
   padding: 3vw;
@@ -76,13 +119,13 @@ body {
    overflow: hidden;
    float: left;
    text-decoration: none;
-   color: #ffffff;
+   color: black;
   }
   
   .dropbtn {
   background-color: inherit;
-  color: #ffffff;
-  font-size: 2vw;
+  color: #black;
+  font-size: 9pt;
   border: none;
   text-transform: uppercase;
   text-align: right;
