@@ -1,27 +1,31 @@
 
-body {
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+  body {
   background-color: #EDEAE5;
   margin: 0px;
   padding:0;
-  font-family: , Veranda, Sans-serif;
+  font-family: Verdana, Lucida Sans,  Sans-serif;
   
 }
   .content{
-  margin-top: 40px;
+  margin-top: 1vw;
   }
   .c-div-introblock{
   background-image: url("clouds.jpg"); /* The image used - important! */
   background-size: cover;
-  
   display: flex;
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  min-width:100vw;
+  min-width:130%;
   margin: 0px auto;
   }
   
   .c-div-introblock-header{
+  
   display:inline-block;
   overflow:hidden;
   text-align: center; /* Center text */
@@ -33,7 +37,7 @@ body {
   color: #ffffff;
   margin: 2vw auto; /* Center the text container */
   padding: 1vw;
-
+  z-index: 4;
   position: absolute; /* Position text */
   top: 40%; /* Position text in the middle */
   left: 14%; /* Position text in the middle */
@@ -81,12 +85,18 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
+  min-height: 100%;
+  max-width:1600px;
   margin: 0px auto;
+  margin-left:20%;
+  
   }
  
  .c-h3-about-heading{
- font-size: 150
+ font-family: Verdana, Lucida Sans,  Sans-serif;
+  font-size:2vw;
+  color: #ffffff;
+ 
  }
  .right{
  float: right;
@@ -100,16 +110,19 @@ body {
   font-size: 90%;
   list-style-type: square;}
   
+
+  
   .c-nav-bar{
   overflow: hidden;
   background-color: #ffffff;
   font-size: 9pt;
   text-transform: uppercase;
   text-align: center;
-  padding: 3vw;
   position:fixed;
   top: 0;
   width: 100%;
+  font-style: Verdana;
+  height: 34px;
   }
   
   .c-nav-container{
@@ -119,33 +132,47 @@ body {
    display: inline-block;
    overflow: hidden;
    float: left;
+   text-align: center;
    text-decoration: none;
    color: black;
+   height:34px;
+   padding: 10px 15px 9px 15px;
+   
   }
   
-  .dropbtn {
-  background-color: inherit;
-  color: #black;
-  font-size: 9pt;
-  border: none;
-  text-transform: uppercase;
-  text-align: right;
-}
+  .div-bar {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  margin: 6px 0;
+  }
+ 
+  .dropbtn{
+  float: right
+  }
 
 .dropdown {
   display: inline-block;
   text-align: right;
   float: right;
-  margin-right: 18vw;
+  
   
 }
 
 .dropdown-content {
   display: none;
+  float: none;
   z-index: 1;
-  background-color: #D4A59A;
+  background-color: #ffffff;
   width: 25%;
   position: fixed;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
+  right:0%;
+  top:34px;
+  left: auto;
+
+
 }
 
 .dropdown-content a {
@@ -153,7 +180,7 @@ body {
   text-decoration: none;
   text-align: left;
   display: block;
-  color: #ffffff;
+  color: black;
   font-size: 2vw;
   margin: 3vw;
 }
