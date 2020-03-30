@@ -1,8 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  <style>
-  body {
+
+body {
   background-color: #EDEAE5;
   margin: 0px;
   padding:0;
@@ -15,26 +12,30 @@
   .c-div-introblock{
   background-image: url("clouds.jpg"); /* The image used - important! */
   background-size: cover;
-  max-width: 1000px;
+  
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
   min-height: 100vh;
+  min-width:100vw;
   margin: 0px auto;
+  }
+  
+  .c-div-introblock-header{
+  display:inline-block;
+  overflow:hidden;
+  text-align: center; /* Center text */
+  width: 50%;
   }
   .c-h1-introduction{
   font-family: Verdana, Lucida Sans,  Sans-serif;
   font-size:2vw;
   color: #ffffff;
-  
-  line-height: 6pt;
-   margin: 0 auto; /* Center the text container */
-  padding: 10px;
-  width: 50%;
-  text-align: center; /* Center text */
+  margin: 2vw auto; /* Center the text container */
+  padding: 1vw;
+
   position: absolute; /* Position text */
-  top: 36%; /* Position text in the middle */
+  top: 40%; /* Position text in the middle */
   left: 14%; /* Position text in the middle */
   transform: translate(-25%, -25%); /* Position text in the middle */
   
@@ -48,8 +49,8 @@
   font-weight: bold;
   margin: 0 auto; /* Center the text container */
   padding: 10px;
-  width: 50%;
-  text-align: center; /* Center text */
+ 
+  maxwidth:50vw;
   position: absolute; /* Position text */
   top: 50%; /* Position text in the middle */
   left: 50%; /* Position text in the middle */
@@ -68,8 +69,8 @@
   width: 50%;
   text-align: center; /* Center text */
   position: absolute; /* Position text */
-  top: 60%; /* Position text in the middle */
-  left: 50%; /* Position text in the middle */
+  top: 55%; /* Position text in the middle */
+  left: 74%; /* Position text in the middle */
   transform: translate(-25%, -25%); /* Position text in the middle */
   
   }
