@@ -5,9 +5,22 @@
     <link href="./style.css" rel="stylesheet" type="text/css">
   </head>
 
-<body>
+  <body>
     <main>
-    <! ADD NAVBAR >
+    <nav class= "c-nav-bar">
+    	<div class= "c-nav-container" >
+        <a class= "c-nav-content" href= "#intro">  Summer Jasinski</a>
+        <a class= "c-nav-intro" href= "#intro"> 
+        </div>
+        <div class="dropdown">
+ 			 <button class="dropbtn">Menu</button>
+  			 <div class="dropdown-content">
+    			<a href="#intro">About Me</a>
+    			<a href="#work">Work Experience</a>
+    			<a href="#project">Projects</a>
+  		     </div>
+        </div>
+    </nav>
     <!-- Header Intro -->
    <div class="content">
     <div class="c-div-introblock">
@@ -25,7 +38,7 @@
 	  </p> 
 	  </div>
     </div>
-    <div class="c-div-about-me">
+    <div class="c-div-about-me" id="intro">
 	   <div class="c-div-about-head">
 	     <h3 class="c-h3-about-heading">
          About Me
@@ -33,23 +46,23 @@
 	   </div>
 	   <div class="c-div-about-body">
 	     <p class="c-p-about-para">
-		 Hello, I'm Summer Jasinski a math nerd turned Computer Science enthusiast. Although I'm relatively new to Computer Science, I love learning and developing new skills and projects. 
+		 Hello, I'm Summer Jasinski, a math nerd turned Computer Science enthusiast. Although I'm relatively new to Computer Science, I love learning and developing new skills and projects. 
 		 </p>
          <p"c-p-about-para">
           I'm currently a Northeastern University student based in Boston. Since moving to Massachussets from Florida, I've worked with teams at Reebok and the Boston Red Sox in Data Analytics. Through my experiences I have been able to develop my skills in the following areas: 
          </p>
-         <ul class="c-list-about-skills">
-         	<li class="c-ul-about-skills"> SQL</li>
-            <li class="c-ul-about-skills"> Python</li>
-            <li class="c-ul-about-skills"> Tableau</li>
-            <li class="c-ul-about-skills"> GCP  (Particularly BigQuery)</li>
-            <li class="c-ul-about-skills"> MATLAB</li>
-            <li class="c-ul-about-skills"> Javascript</li>
-            <li class="c-ul-about-skills"> HTML and CSS</li>
+         <ul class="c-list-about-me">
+         	<li> SQL</li>
+            <li> Python</li>
+            <li> Tableau</li>
+            <li> GCP  (Particularly BigQuery)</li>
+            <li> MATLAB</li>
+            <li> Javascript</li>
+            <li> HTML and CSS</li>
             
 	   </div>
     </div>
-    <div class="c-div-about-me">
+    <div class="c-div-about-me" id="work">
 		<div class="c-div-about-head">
 			<h3 class="c-h3-about-heading">
 			 Work Experience
@@ -64,8 +77,15 @@
              <br>
              <b> Business Intelligence and Reporting Co-op </b>
              <br>
-             <br>
-             <br>
+             <div>
+             	<ul class="c-ul-list-about-me">
+               	    <li> Create innovative Tableau displays of Ticket and Revenue data for cross departmental teams</li>
+                	<li> Coordinate Cleanup and Verification of SQL databases and newly imported Cloud Based Data Storage</li>
+                    <li> Perform upkeep on automated R-scripted emails containing data snapshots </li>
+                    <li> New projects still to come!</li>
+                 </ul>
+             </div>
+             
 			</p>
             <p class="c-p-about-para">
 			 <b>Northeastern University</b>
@@ -75,10 +95,15 @@
              <br>
              <b> Research Assistant - Financial Risk Management </b>
              <br>
-             <br>
-             <br>
+             <div>
+             	<ul class="c-ul-list-about-me">
+                	<li> Assisted a Professor with web scraping of information to create a multi-million record database</li>
+                    <li> Responsible for cleansing and organizing of articles in an efficient manner </li>
+                    <li> Assisted with application of cosine similarity to article analysis </li>
+                 </ul>
+             </div>
 			</p>
-            <p class="c-p-about-para">
+            <p class="c-p-about-para" id="project">
 			 <b>Reebok </b>
              <span class="right">
              Jan 2019 - June 2019
@@ -86,8 +111,14 @@
              <br>
              <b> Range Architecture Co-op </b>
              <br>
-             <br>
-             <br>
+             <div>
+             	<ul class="c-ul-list-about-me">
+                	<li> Created new systems to analyze and forecast product lines of future seasons.</li>
+                    <li>Introduced Python scripts, Access queries and Excel Visual Basic to reduce hours spent on data processing and cleansing.</li>
+                    <li>Completed analyses of colors, product types, product lines, and sales.</li>
+                    <li>Devised and implemented dashboards in Tableau, allowing PM's to make data driven design decisons. </li>
+                 </ul>
+             </div>
 			</p>
 		</div>
     </div>
@@ -108,9 +139,7 @@
    </div>
   <footer>
     <div class="socialmedia">
-	<ul class="socialList">
-	   <li></li>
-	</ul>
+	
     </div>
    </footer>
  </body>
