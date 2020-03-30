@@ -1,9 +1,13 @@
 body {
-  background-color: #ffffff;
+  background-color: #EDEAE5;
   margin: 0px;
-  font-family:verdana;
+  padding:0;
+  font-family:Lucida Sans, Veranda, Sans-serif;
   
 }
+  .content{
+  margin-top: 30px;
+  }
   .c-div-introblock{
   max-width: 1000px;
   display: flex;
@@ -12,25 +16,100 @@ body {
   align-items: flex-start;
   min-height: 100vh;
   margin: 0px auto;
-  font-weight: bold;
   }
   .c-h1-introduction{
-  font-family: verdana;
-  font-size:8vw;
-  color: #00887A;
+  font-family: Verdana, Lucida Sans,  Sans-serif;
+  font-size:10vw;
+  color: #ffffff;
   text-align: left;
   line-height: 6pt;
+    
 }
-  .c-h2-name{font-family: verdana;
-  font-size:10vw;
-  color: #F8E9A1;
+  .c-h2-name{font-family:  Verdana, Lucida Sans, Sans-serif;
+  font-size:14vw;
+  color: #026670;
   text-align: left;
   line-height: 6pt;}
+  
+  .c-div-about-me{
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0px auto;
+  }
  
  .c-h3-about-heading{
+ font-size: 150
  }
- 
-.right{
+ .right{
  float: right;
  font-style: italic;
   }
+  
+ .c-list-about-me{
+  list-style-position: inside;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 300px));
+  font-size: 90%;
+  list-style-type: square;}
+  
+  .c-nav-bar{
+  overflow: hidden;
+  background-color: #D4A59A;
+  font-size: 3vw;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3vw;
+  position:fixed;
+  top: 0;
+  width: 100%;
+  }
+  
+  .c-nav-container{
+  }
+  
+  .c-nav-content{
+   display: inline-block;
+   overflow: hidden;
+   float: left;
+   text-decoration: none;
+   color: #ffffff;
+  }
+  
+  .dropbtn {
+  background-color: inherit;
+  color: #ffffff;
+  font-size: 2vw;
+  border: none;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.dropdown {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  margin-right: 18vw;
+  
+}
+
+.dropdown-content {
+  display: none;
+  z-index: 1;
+  background-color: #D4A59A;
+  width: 25%;
+  position: fixed;
+}
+
+.dropdown-content a {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  color: #ffffff;
+  font-size: 2vw;
+  margin: 3vw;
+}
