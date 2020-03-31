@@ -204,6 +204,7 @@
   .self1-image-formatting{
   display: inline-block;
   background-image: url("SummerPic1.jpg");
+  z-index:1;
   }
   .c-div-about-body{
   margin-left:20%;
