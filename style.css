@@ -11,31 +11,35 @@ body {
 
     
   .c-nav-bar{
-  overflow: hidden;
   background-color: #ffffff;
+  z-index:4;
   font-size: 2vw;
   text-transform: uppercase;
   text-align: center;
   position:fixed;
   top: 0;
   width: 100%;
-  font-style: Verdana;
   height: 34px;
   }
   
  c-nav-logo {
-   max-height: 34px;
-   max-width: 34px;}
+   height: 50px;
+   width: 50px;
+   z-index: 5;
+   display: inline-block;
+   border: 5px;
+   border-style: solid;
+   top:0;
+   border-radius: 50%;}
   
   .c-nav-content{
    display: inline-block;
-   overflow: hidden;
+   color: #eae7dc
    float: left;
    text-align: center;
    text-decoration: none;
-   color: black;
+
    height:34px;
-   padding: 10px 15px 9px 15px;
    
   }
   
@@ -165,13 +169,13 @@ body {
  }
  .c-h3-about-heading{
   background-color: white;
-  color: #7095c8;
+  color: #28426c;
   font-size: 4vw; 
   font-weight: bold;
   margin: 10 auto; 
   padding: 12px;
   position: relative;
-  max-width: 40%;
+  max-width: 38%;
 }
  
 
@@ -232,7 +236,7 @@ body {
   margin: 10 auto; 
   padding: 12px;
   position: relative;
-  max-width: 230px;
+  max-width: 38%;
 }
 
  .right{
