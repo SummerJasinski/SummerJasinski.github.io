@@ -11,7 +11,7 @@ body {
 
     
   .c-nav-bar{
-  background-color: yellow;
+  background-color: #ffffff;
   z-index:4;
   font-size: 2vw;
   text-transform: uppercase;
@@ -22,7 +22,7 @@ body {
   height: 34px;
   }
   
- c-nav-logo {
+ .c-nav-logo {
    height: 50px;
    width: 50px;
    z-index: 5;
@@ -34,7 +34,7 @@ body {
   
   .c-nav-content{
    display: inline-block;
-   color: #eae7dc
+   color: #eae7dc;
    float: left;
    text-align: center;
    text-decoration: none;
