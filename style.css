@@ -68,25 +68,31 @@ body {
   display: none;
   float: none;
   z-index: 1;
-  background-color: #ffffff;
-  width: 25%;
+  background-color: #9aec9dc;
   position: fixed;
-  min-width: 160px;
+  width: 140px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
   right:0%;
   top:34px;
   left: auto;
-
+  outline-width: 6px;
+    border-style: solid;
+    border-top-color: #aec9dc;
+    border-right-color: #aec9dc;
+    border-width: 7px;
+    border-left-color: #eae7dc;
+    border-bottom-color: #eae7dc;
+    border-radius: 0px 0px 0px 50px;
 
 }
 .dropdown-content a {
-  text-transform: uppercase;
+  text-transform: none;
   text-decoration: none;
-  text-align: left;
+  text-align: right;
   display: block;
-  color: black;
-  font-size: 12pt;
-  margin: 1.5vw;
+  color: #ffffff;
+  font-size: 8pt;
+  margin: 10px;
 }
 
 
