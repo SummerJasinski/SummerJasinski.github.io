@@ -1,18 +1,98 @@
 
-<!DOCTYPE html>
-<html>
-  <head>
-  <style>
   body {
-  background-color: #EDEAE5;
+  background-color: #7095c8;
   margin: 0px;
-  padding:0;
+  padding:0px;
   font-family: Verdana, Lucida Sans,  Sans-serif;
+  overflow-x: hidden
   
 }
   .content{
   margin-top: 1vw;
+  padding:0;
+  font-family: Verdana, Lucida Sans,  Sans-serif;
   }
+  
+    
+  .c-nav-bar{
+  overflow: hidden;
+  background-color: #ffffff;
+  font-size: 2vw;
+  text-transform: uppercase;
+  text-align: center;
+  position:fixed;
+  top: 0;
+  width: 100%;
+  font-style: Verdana;
+  height: 34px;
+  }
+  
+  .c-nav-container{
+  }
+  
+  .c-nav-content{
+   display: inline-block;
+   overflow: hidden;
+   float: left;
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   height:34px;
+   padding: 10px 15px 9px 15px;
+   
+  }
+  
+  .div-bar {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  margin: 6px 0;
+  }
+ 
+  .dropbtn{
+  float: right;
+  border: none;
+  background-color: #ffffff
+  }
+
+.dropdown {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  margin-right: 2vw;
+  
+}
+
+.dropdown-content {
+  display: none;
+  float: none;
+  z-index: 1;
+  background-color: #ffffff;
+  width: 25%;
+  position: fixed;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
+  right:0%;
+  top:34px;
+  left: auto;
+
+
+}
+.dropdown-content a {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  color: black;
+  font-size: 1.5vw;
+  margin: 3vw;
+}
+
+
+
+
+
+
   .c-div-introblock{
   background-image: url("clouds.jpg"); /* The image used - important! */
   background-size: cover;
@@ -20,7 +100,7 @@
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-  min-width:130%;
+  width:100%;
   margin: 0px auto;
   }
   
@@ -79,30 +159,54 @@
   
   }
   
+  
+  
+  
+  
+  
   .c-div-about-me{
-  max-width: 1000px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100%;
-  max-width:1600px;
+  min-height: 100vh;
+  max-width:80% ;
+  max-width: 1000px;
   margin: 0px auto;
-  margin-left:20%;
+  margin-left:10%;
+  margin-top:30px;
   
   }
  
  .c-h3-about-heading{
- font-family: Verdana, Lucida Sans,  Sans-serif;
-  font-size:2vw;
-  color: #ffffff;
+  font-family: Verdana, Lucida Sans,  Sans-serif;
+  background-color: white;
+  color: #7095c8;
+  font-size: 6vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  maxwidth:50vw;
+  position: relative; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */}
  
- }
- .right{
- float: right;
- font-style: italic;
+ 
+  .c-div-self-picture1{
+     position: relative;
+    width: 40%;
+    max-width: 300px;
+    margin-right: 60px;
   }
   
+  .self1-image-formatting{
+  display: inline-block;
+  }
+  .c-div-about-body{
+  margin-left:20%;
+  }
  .c-list-about-me{
   list-style-position: inside;
   display: grid;
@@ -110,79 +214,14 @@
   font-size: 90%;
   list-style-type: square;}
   
-
-  
-  .c-nav-bar{
-  overflow: hidden;
-  background-color: #ffffff;
-  font-size: 9pt;
-  text-transform: uppercase;
-  text-align: center;
-  position:fixed;
-  top: 0;
-  width: 100%;
-  font-style: Verdana;
-  height: 34px;
+ .right{
+ float: right;
+ font-style: italic;
   }
   
-  .c-nav-container{
-  }
-  
-  .c-nav-content{
-   display: inline-block;
-   overflow: hidden;
-   float: left;
-   text-align: center;
-   text-decoration: none;
-   color: black;
-   height:34px;
-   padding: 10px 15px 9px 15px;
-   
-  }
-  
-  .div-bar {
-  width: 25px;
-  height: 2px;
-  background-color: black;
-  margin: 6px 0;
-  }
- 
-  .dropbtn{
-  float: right
-  }
-
-.dropdown {
-  display: inline-block;
-  text-align: right;
-  float: right;
-  
-  
-}
-
-.dropdown-content {
-  display: none;
-  float: none;
-  z-index: 1;
-  background-color: #ffffff;
-  width: 25%;
-  position: fixed;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
-  right:0%;
-  top:34px;
-  left: auto;
 
 
-}
-
-.dropdown-content a {
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: left;
-  display: block;
-  color: black;
-  font-size: 2vw;
-  margin: 3vw;
+.c-div-about-body{
 }
 
 dropdown-content a:hover {background-color: black;}
