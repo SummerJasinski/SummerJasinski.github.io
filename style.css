@@ -23,8 +23,9 @@ body {
   height: 34px;
   }
   
-  .c-nav-container{
-  }
+ c-nav-logo {
+   max-height: 34px;
+   max-width: 34px;}
   
   .c-nav-content{
    display: inline-block;
