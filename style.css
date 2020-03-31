@@ -195,22 +195,14 @@
  
  
   .c-div-self-picture1{
-     position: relative;
-    width: 40%;
-    max-width: 300px;
-    margin-right: 60px;
+     
     float:left;
   }
   
   .self1-image-formatting{
-  display: inline-block;
-  z-index:1;
-  background-image: url("SummerPic1.jpg");
-  display: flex;
+  display: grid;
   justify-content: left;
-  flex-direction: column;
   min-height: 100vh;
-  width: 30%;
   max-width: 400px;
   margin: 0px auto;
   height: 100%;
