@@ -199,6 +199,7 @@
     width: 40%;
     max-width: 300px;
     margin-right: 60px;
+    float:left;
   }
   
   .self1-image-formatting{
@@ -216,6 +217,8 @@
   }
   .c-div-about-body{
   margin-left:20%;
+  float:right;
+  clear: left;
   }
  .c-list-about-me{
   list-style-position: inside;
