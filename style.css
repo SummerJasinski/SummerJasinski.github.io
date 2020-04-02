@@ -83,6 +83,8 @@ body {
   margin-right: 1vw;
   border-radius: 50%;
   background: #ffffff;
+  width: 60px;
+  heigh: 60px;
 }
 
 .dropdown-content {
