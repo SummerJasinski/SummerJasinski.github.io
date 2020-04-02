@@ -32,6 +32,18 @@ body {
    top:0;
    border-radius: 50%;}
   
+  .c-nav-intro{
+    width:50px;
+    height:50px;
+    z-index: 5;
+    display: inline-block;
+    border: 5px;
+    border-style: solid;
+    top:0;
+    border-radius: 50%;
+    right: 0;
+    color: #eae7dc;
+}
   .c-nav-content{
    display: inline-block;
    color: #eae7dc;
@@ -46,14 +58,22 @@ body {
   .div-bar {
   width: 25px;
   height: 2px;
-  background-color: black;
-  margin: 6px 0;
+  background-color: #ffffff;
+  margin: 4px 0;
   }
  
   .dropbtn{
   float: right;
   border: none;
-  background-color: #ffffff
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+   height: 37px;
+   padding: 6px;
+  width:37px;
+  margin: 6px;
+  border-color: #ffffff;
   }
 
 .dropdown {
