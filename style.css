@@ -63,9 +63,9 @@ body {
   }
  
   .dropbtn{
-  float: right;
-  border: none;
-  background-color: #ffffff;
+  float: none;
+  border: 10px;
+  background-color: #aec9dc;
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -81,6 +81,8 @@ body {
   text-align: right;
   float: right;
   margin-right: 1vw;
+  border-radius: 50%;
+  background: #ffffff;
 }
 
 .dropdown-content {
