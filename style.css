@@ -83,7 +83,7 @@ body {
   border-radius: 50%;
   background: #ffffff;
   width: 60px;
-  heigh: 60px;
+  height: 60px;
 }
 
 .dropdown-content {
@@ -102,75 +102,68 @@ body {
   border-style: solid;
   border-width: 7px;
   border-color: #eae7dc;
-  border-bottom-left-radius: 100%;
   transition: all 1s;
+  border-radius: 100%;
 
 
 }
 .dropdown-content a {
-  transform: rotate(45deg);
   text-decoration: none;
   opacity: 0;
   display: block;
   color: #ffffff;
   font-weight: bold;
   font-size: 0pt;
-  margin: 40px;
+  margin: 10px;
   text-align:center;
 }
 
+.dropdown-content a:hover{
+color: #eae7dc;
+}
 
 #aboutdrop{
- 
- width:80px;
- height:80px;
+ width:160px;
+ height:60px;
  right:0;
- top: 0;
- box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
- position: absolute;
- border-bottom-left-radius: 100%;
+ top: 0; 
+ border-radius:  1000px 1000px 0 0 ;
 }
 
 #aboutdrop a{
-  top:-25px;
-  right:10px;
-   position: relative;
+  top:20px;
+  position: relative;
 }
 
+
 #workdrop{
- z-index: -5;
-width:130px;
- height:130px;
+
+ z-index: -1;
+ width:160px;
+ height:110px;
  right:0;
  top: 0;
- box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
- position: absolute;
- border-bottom-left-radius: 100%;
+ border-radius:  600px 600px 0 0 ;
 }
+
 #workdrop a{
-  top:14px;
-  right:14px;
-   position: relative;
+  position: relative;
+  top:-10px;
 }
 
 
 #projdrop{
  z-index: -1;
- width:180px;
- height:180px;
- right:0;
- top: 0;
- position: absolute;
- border-bottom-left-radius: 100%;
- top: 20px;
+ width:160px;
+ height:160px;
  right: 2px;
+ border-radius: 50%;
 }
 
 
 #projdrop a{
-  top:36px;
-  right:17px;
-   position: relative;
+  position: relative;
+  top:-90px;
 }
 
 .f-div-landing-page{
@@ -247,9 +240,7 @@ width:130px;
   margin: 0px auto;
   padding-top: 20px;
   }
- c-div-about-head{
- 
- }
+
  .c-h3-about-heading{
   background-color: white;
   color: #28426c;
@@ -301,12 +292,20 @@ width:130px;
   text-decoration: underline;
   text-decoration-color: #F4976C}
  
+ .company-worked{
+  color: #ffffff;
+  text-decoration: underline;
+  text-decoration-color: #F4976C}
+ 
+ .company-worked:hover {
+  background-color: #F4976C;
+}
+ 
 
-
-
+  
 .dropdown:hover .dropdown-content {display: block;
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   opacity: 1;
   }
   
@@ -322,16 +321,60 @@ width:130px;
  
   .c-h3-work-heading{
   background-color: white;
-  color: #7095c8;
+  color: #28426c;
   font-size: 4vw; 
   font-weight: bold;
   margin: 10 auto; 
   padding: 12px;
   position: relative;
-  max-width: 38%;
+  max-width: 48%;
 }
 
  .right{
  float: right;
  font-style: italic;
   }
+  
+ .expand-button {
+  background-color: #aec9dc;
+  color: #ffffff ;
+  cursor: pointer;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin: 10px;
+  line-height: 150%;
+}
+
+
+.active, .expand-button:hover {
+  background-color: #aec9dc;
+}
+
+.expand-button:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  margin-top:-20px;
+  position: relative;
+}
+
+.active:after {
+  content: "\2212";
+  }
+  
+.expand-content {
+
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  background-color: #28426c;
+  color: #ffffff;
+  margin: 10px;
+  margin-top: -10px;
+}
