@@ -1,6 +1,6 @@
 
    
-  var button = document.getElementsByClassName("expand-button");
+  function myExpandbar() { var button = document.getElementsByClassName("expand-button");
   var i;
   for (i = 0; i< button.length; i++){
      button[i].addEventListener("click",function(){
@@ -12,5 +12,5 @@
      else { content.style.display = "block"
      }
      });
-     }
+     }}
  
