@@ -1,17 +1,17 @@
 
 body {
-  background-color: #28426c;
+  background-color: #f7f7f7;
   margin: 0px;
   padding:0;
   font-family:Verdana, Lucida Sans,  Sans-serif;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 
     
   .c-nav-bar{
-  background-color: #ffffff;
-  z-index:4;
+  background-color: tran;
+  z-index:1;
   font-size: 2vw;
   text-transform: uppercase;
   text-align: center;
@@ -25,7 +25,7 @@ body {
    height: 50px;
    width: 50px;
    z-index: 5;
-   display: inline-block;
+   display: none;
    border: 5px;
    border-style: solid;
    top:0;
@@ -41,11 +41,11 @@ body {
     top:0;
     border-radius: 50%;
     right: 0;
-    color: #eae7dc;
+    color: #eee5e9;
 }
   .c-nav-content{
    display: inline-block;
-   color: #eae7dc;
+   color: #eee5e9;
    float: left;
    text-align: center;
    text-decoration: none;
@@ -90,7 +90,7 @@ body {
   display: grid;
   float: none;
   z-index: -10;
-  background-color: #aec9dc;
+  background-color: #eee5e9;
   position: fixed;
   width: 0px;
   height: 0px;
@@ -101,7 +101,7 @@ body {
   outline-width: 6px;
   border-style: solid;
   border-width: 7px;
-  border-color: #eae7dc;
+  border-color: #eee5e9;
   transition: all 1s;
   border-radius: 100%;
 
@@ -119,7 +119,7 @@ body {
 }
 
 .dropdown-content a:hover{
-color: #eae7dc;
+color: #08415c;
 }
 
 #aboutdrop{
@@ -167,7 +167,7 @@ color: #eae7dc;
 }
 
 .f-div-landing-page{
-  margin-top: 30px;  
+  margin-top: 0px;  
   padding:0;
 
   }
@@ -228,22 +228,21 @@ color: #eae7dc;
  margin-right:50px;
  max-width: 1000px;
  justify-content: center;
- color:#EAE7Dc;
+ color:#3d5467;
 }
   
 .c-div-about-me{
- 
-  justify-content: center;
-  flex-direction: column;
-  align-items: flex-start;
-  min-height: 90vh;
-  margin: 0px auto;
-  padding-top: 20px;
-  }
+ justify-content: center;
+ flex-direction: column;
+ align-items: flex-start;
+ min-height: 90vh;
+ margin: 0px auto;
+ /* padding-top: 10px; */
+ }
 
  .c-h3-about-heading{
-  background-color: white;
-  color: #28426c;
+  background-color: #08415c;
+  color: #f7f7f7;
   font-size: 4vw; 
   font-weight: bold;
   margin: 10 auto; 
@@ -288,17 +287,23 @@ color: #eae7dc;
    line-height: 200%;
   }
   .c-p-about-para a{
-  color: #ffffff;
+  color: #3d5467;
   text-decoration: underline;
-  text-decoration-color: #F4976C}
+  text-decoration-color: #aa4465;
+  }
  
  .company-worked{
   color: #ffffff;
   text-decoration: underline;
-  text-decoration-color: #F4976C}
+  font-size: 15pt;
+  text-decoration-color: #aa4465;
+  }
+
+a.company-worked {}
  
  .company-worked:hover {
-  background-color: #F4976C;
+  background-color: #aa4465;
+  color: #f7f7f7;
 }
  
 
@@ -315,13 +320,14 @@ color: #eae7dc;
   }
 
 .c-p-about-para a:hover {
-  background-color: #F4976C;
+  background-color: #aa4465;
+  color: #f7f7f7;
 }
  
  
   .c-h3-work-heading{
-  background-color: white;
-  color: #28426c;
+  background-color: #08415c;
+  color: #f7f7f7;
   font-size: 4vw; 
   font-weight: bold;
   margin: 10 auto; 
@@ -336,7 +342,7 @@ color: #eae7dc;
   }
   
  .expand-button {
-  background-color: #aec9dc;
+  background-color: #08415c;
   color: #ffffff ;
   cursor: pointer;
   padding: 8px;
@@ -351,7 +357,7 @@ color: #eae7dc;
 
 
 .active, .expand-button:hover {
-  background-color: #aec9dc;
+  background-color: #08415c;
 }
 
 .expand-button:after {
@@ -373,7 +379,7 @@ color: #eae7dc;
   display: none;
   overflow: hidden;
   width: 100%;
-  background-color: #28426c;
+  background-color: #aec9dc;
   color: #ffffff;
   margin: 10px;
   margin-top: -10px;
