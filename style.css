@@ -75,7 +75,10 @@
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
-    margin: 0px auto;
+    margin: 0px  auto;
+    background-image: url("flowers.jpg");
+  	background-size: cover;
+    border: 
 }
 	.c-div-introblock-header{
 	align-content: center;
@@ -112,10 +115,11 @@
 	.c-h3-about{
 	font-size: xxx-large;
     position: relative;
-    left: 40vw;
+    left: 32vw;
     margin-top: 0px;
     font-weight: lighter;
     margin-bottom: 12px;
+    padding-left: 10vw;
 }
 	.f-div-about-body{
 	display: inline-flex;
@@ -131,9 +135,12 @@ float: right;
     margin-left: 0px;
     right: 0;
 }
+	.c-div-job-head{
+    display: flex;
+    }
 
 	.underline-link{
-	color: #ffffff;
+	color: black;
     text-decoration: underline;
     text-decoration-color: #F4976C;
 }
@@ -145,12 +152,11 @@ float: right;
     list-style-type: none;
 }
 	.f-div-job-body{
-        left: 2vw;
     top: 25vh;
-    float: right;
-    margin-right: 200px;
+  
+    padding-left:0;
     position: relative;
-    padding-left: 10px;
+    margin-left: 80px;
     }
 	#work{
 	    max-width: 1000px;
@@ -172,10 +178,10 @@ float: right;
     font-weight: lighter;\
     margin-bottom: 12px;
     padding-left: 55px;
-    left: 2vw;
+    left: 10vw;
     top: -1vh;
     padding-left: 10px;
-    width: 35vw;
+    width: 60vw;
 }
 
 	.f-div-about-text{
