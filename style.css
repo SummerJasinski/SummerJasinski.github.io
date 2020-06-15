@@ -11,6 +11,7 @@
 		 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 	.c-nav-bar{z-index: 4;
+		background-color: #f9f8f4;
     font-size: 2.7vw;
     text-align: left;
     font-size: large;
@@ -74,11 +75,12 @@
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    min-height: 100vh;
+    min-height: 90vh;
+	margin-bottom: 10vh;
     margin: 0px  auto;
     background-image: url("flowers.jpeg");
-  	background-size: cover;
-    border: 
+  	background-size: contain;
+    background-position: top; 
 }
 	.c-div-introblock-header{
 	align-content: center;
@@ -87,19 +89,20 @@
     margin-left: 10%;
 }
 	.c-h3-introduction{
-	
+	color: #ffbb82;
     margin-bottom: 0px;
     margin-left: 10px;
-    font-size: inherit;
+    font-size: x-large;
 }
 	.c-h1-name{
-	color: darkcyan;
+	color: #f8e4e8;
     font-size: 106px;
     font-weight: 100;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 	.c-h2-intro-bottom{
+		color: #ffca97;
 	margin-top: 0px;
     font-size: large;
 }
@@ -111,6 +114,9 @@
     align-items: flex-start;
     min-height: 100vh;
     margin: 0px auto;
+}
+	.c-div-about-head{
+	width:90vw;
 }
 	.c-h3-about{
 	font-size: xx-large;
@@ -132,8 +138,9 @@
 }
 	.f-div-about-text{
 float: right;
-    margin-left: 0px;
+    margin-left: 20px;
     right: 0;
+    left:40%;
 }
 	.c-div-job-head{
     display: flex;
