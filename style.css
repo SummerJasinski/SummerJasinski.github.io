@@ -64,10 +64,9 @@
     margin-right: 0px;
 }
 	
-	#projdrop{
-	font-size: medium;
-    	float: right;
-   	 left: 40%;
+	#projdrop{    font-size: medium;
+    float: right;
+    left: 40%;
 }
 	.c-div-introblock{
 	max-width: 1000px;
@@ -145,6 +144,14 @@ float: right;
     font-size: 100%;
     list-style-type: none;
 }
+	.f-div-job-body{
+        left: 2vw;
+    top: 25vh;
+    float: right;
+    margin-right: 200px;
+    position: relative;
+    padding-left: 10px;
+    }
 	#work{
 	    max-width: 1000px;
     display: -webkit-box;
