@@ -76,7 +76,7 @@
     align-items: flex-start;
     min-height: 100vh;
     margin: 0px  auto;
-    background-image: url("flowers.jpg");
+    background-image: url("flowers.jpeg");
   	background-size: cover;
     border: 
 }
@@ -113,7 +113,7 @@
     margin: 0px auto;
 }
 	.c-h3-about{
-	font-size: xxx-large;
+	font-size: xx-large;
     position: relative;
     left: 32vw;
     margin-top: 0px;
