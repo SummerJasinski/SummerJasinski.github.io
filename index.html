@@ -9,152 +9,144 @@
  
 
 <body>
-    <main>
-    <!-- Navigation Bar -->
-        <nav class= "c-nav-bar">
-    	<div class= "c-nav-container" >
-        <a class= "c-nav-content" href= "#intro"> <img class="c-nav-logo" src="logo.PNG" alt="Summer Jasinski"></a>
-
-        </div>
-        <div class="dropdown">
-		        <div class= "c-nav-intro" href= "#intro"> 
- 			 <button class="dropbtn">
-				 
-                <div class="div-bar"> </div>
-                <div class="div-bar"> </div>
-                <div class="div-bar"> </div>
-				
-             </button>
-				 </div>
-  			 <div class="dropdown-content">
-    			<div id="aboutdrop" ><a href="#intro" >About</a></div>
-    			<div id="workdrop" ><a href="#work" >Experience</a></div>
-    			<div id="projdrop" ><a href="#project">Projects <br>(Coming Soon)</a></div>
-  		     </div>
-        </div>
-    </nav>
-
-<!-- Remainder of Content-->
-<div class="content">
-  <div class="f-div-landing-page">
-
-    <!-- Landing Page-->
-    <div class="c-div-introblock">
-	  <div class= "c-div-introblock-header">
-	    <h1 class="c-h1-introduction">
-      		Hi, I'm 
-       	    </h1>
-	    <h2 class="c-h2-name"> 
-      		Summer
-            </h2>
-            <h1 class="c-h1-introduction-bottom">
-      		Get to know me...
-            </h1>
-          </div>
-     </div>
-   </div>
-     <div class="f-div-info-pages">
-       <div class="c-div-about-me" id="intro">
-	   <div class="c-div-about-head">
-	     <h3 class="c-h3-about-heading">
-        	 About Me
-              </h3>
-	   </div>
-         <div class="f-div-about-body">
-	     <img class="self1-image-formatting" src="SummerPic1.png" alt="Summer Jasinski">
-		 </img>
-             <div class="f-div-about-text">
-	     	 <p class="c-p-about-para">
-		 Hello, I'm <a> Summer Jasinski </a>, a Statistics and Data Science enthusiast. Although I'm a self-taught and relatively new programmer, I love learning and developing new knowledge and projects. 
-		 </p>
-         	 <p class="c-p-about-para">
-                 I'm currently a <a href="https://www.northeastern.edu/"> Northeastern University </a> student based in Boston. Since moving to Massachussets from Florida, I've worked with teams at <a href="https://www.reebok.com/us" >Reebok </a> and the <a href="https://www.mlb.com/redsox" >Boston Red Sox </a> in Data Analytics helping them solve problems and visualize data with technology. I primarily work with the skills in the following areas: 
-         	 </p>
-        
-         	 <ul class="c-list-about-me">
-         		<li> SQL</li>
-            		<li> Python</li>
-            		<li> Tableau</li>
-            		<li> GCP- BigQuery </li>
-            		<li> MATLAB</li>
-           		<li> (Basic) Javascript</li>
-            		<li> (Basic) HTML and CSS</li>
-         </ul>
-	     </div>
-           </div>
-        </div>
-       <div class="c-div-about-me" id="work">
-	   <div class="c-div-about-head">
-	     <h3 class="c-h3-work-heading">
-        	 Work Experience
-              </h3>
-	   </div>
-         <div class="f-div-about-body">
-             
-             <div class="f-div-about-text">
-	     	 <p class="c-p-about-para">
-		View my <a href="S_Jasinski_4_19.pdf"	
-" target="_blank"> full resume</a> , or some selected work.
-		 </p>
-            <button type="button" class="expand-button" onclick="myExpandbar()">
-			<a class="company-worked" href="https://www.mlb.com/redsox" ><b>Boston Red Sox</b></a>
-             <span class="right">
-             Jan 2020 - Current
-             </span>
-             <br>
-             <a> Business Intelligence and Reporting Co-op </a>
-             <br>
-             </button>
-             <div class= "expand-content">
-             	 <ul class="c-ul-list-about-me">
+   <main>
+		<nav class="c-nav-bar">
+			<div class="c-nav-container">
+				<a class="c-nav-content" href="#intro">
+					<div class="c-nav-logo">
+					"Summer"
+						<a class="right-logo"> Jasinski
+						</a>
+					</div>
+				</a>
+				<div class="dropdown">
+					<div class ="dropdown-content">
+						<div id="aboutdrop">
+							<a class="drop-subtitle" href="#intro">
+							About
+							</a>
+						</div>
+						<div  id="workdrop">
+							<a class="drop-subtitle" href="#intro">
+							Experience
+							</a>
+						</div>
+						<div id="aboutdrop">
+							<a class="drop-subtitle" href="#intro">
+							Projects (Coming Soon!)
+							</a>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class ="content">
+			<div class="f-div-landing-page">
+				<div class="c-div-introblock">
+					<div class="c-div-introblock-header">
+						<h3 class="c-h3-introduction">
+						Hi, I'm
+						</h3>
+						<h1 class="c-h1-name">
+						Summer
+						</h1>
+						<h2 class="c-h2-intro-bottom">
+						Get to know me...
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="f-div-info-pages">
+				<div class="c-div-about-me" id="intro">
+					<div class="c-div-about-head">
+						<h3 class="c-h3-about"> About Me </h3>
+					</div>
+					<div class="f-div-about-body">
+						<img class="self-image-formatting" src="SummerPic1.png" alt="Self Portrait">
+						<div class="f-div-about-text">
+							<p class="c-p-about-para">
+							"Hello, I'm Summer Jasinski a Data Science and Statistics student. Although I'm self taught and a relatively new programmer, I love learning and developing new knowledge and projects."
+							</p>
+							<p class="c-p-about-para">
+							"I'm currently a"
+								<a href="https://www.northeastern.edu/" class="underline-link"> Northeastern University </a>
+							"student based in Boston. Since moving to Massachussets from Florida, I have worked with teams at"
+								<a href="https://www.reebok.com/us" class="underline-link"> Reebok </a>
+							"and the"
+								<a href="https://www.mlb.com/redsox" class="underline-link"> Boston Red Sox </a>
+							"helping to solve problems and vizualize data with technology. I primarily work with skills in the following areas:"
+							
+							</p>
+							<ul class="c-list-of-skills">
+								<li> SQL</li>
+            							<li> Python</li>
+            							<li> Tableau</li>
+            							<li> GCP- BigQuery </li>
+            							<li> MATLAB</li>
+           							<li> (Basic) Javascript</li>
+            							<li> (Basic) HTML and CSS</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="c-div-about-me" id="work">
+					<div class="c-div-about-head">
+						<h3 class="c-h3-work-heading"> Work <br> Experience
+						</h3>
+						<div class="f-div-about-text>
+							<p class="c-p-about-para">
+								<b class="job-title">Business Intelligence and Reporting Co-op</b>
+								<br>
+								<a href="https://www.mlb.com/redsox" class="job-co"> Boston Red Sox </a>
+							</p>
+							<div class="job-info">
+								<span class="right"> Jan 2020 - Current </span>
+								<ul class="c-ul-list-about-me">
                	    <li> Create innovative Tableau displays of Ticket and Revenue data for cross departmental teams</li>
                 	<li> Coordinate Cleanup and Verification of SQL databases and newly imported Cloud Based Data Storage</li>
                     <li> Perform upkeep on automated R-scripted emails containing data snapshots </li>
                     <li> New projects still to come!</li>
+					
                  </ul>
-                
-             </div>
-             
-             <button type="button" class="expand-button" onclick="myExpandbar()">
-			 <a class="company-worked" href= "https://damore-mckim.northeastern.edu/"><b>Northeastern University - D'Amore-McKim</b></a>
-             <span class="right">
-             Sept 2019 - Dec 2019
-             </span>
-             <br>
-             <a> Research Assistant - Financial Risk Management </a>
-             <br>
-             </button>
-             <div class= "expand-content">
-             	 <ul class="c-ul-list-about-me">
+							</div>
+							<p class="c-p-about-para">
+								<b class="job-title">Research Assistant - Financial Risk Management</b>
+								<br>
+								<a href="https://damore-mckim.northeastern.edu/" class="job-co"> Northeastern University - D'Amore-McKim </a>
+							</p>
+							<div class="job-info">
+								<span class="right"> Sept 2019 - Dec 2019 </span>
+								<ul class="c-ul-list-about-me">
                 	<li> Assisted a Professor with web scraping of information to create a multi-million record database</li>
                     <li> Responsible for cleansing and organizing of articles in an efficient manner </li>
                     <li> Assisted with application of cosine similarity to article analysis </li>
                  </ul>
-                
-             </div>
-             <button type="button" class="expand-button" onclick="myExpandbar()">
-			<a class="company-worked" href="https://www.reebok.com/us" ><b>Reebok </b> </a>
-             <span class="right">
-             Jan 2019 - June 2019
-             </span>
-             <br>
-             <a> Range Architecture Co-op </a>
-             <br>
-             </button>
-             <div class= "expand-content">
-             	 <ul class="c-ul-list-about-me">
+							</div>
+							<p class="c-p-about-para">
+								<b class="job-title">Range Architecture Co-op</b>
+								<br>
+								<a href="https://www.reebok.com/us" class="job-co"> Reebok </a>
+							</p>
+							<div class="job-info">
+								<span class="right"> Jan 2019 - July 2019</span>
+			<ul class="c-ul-list-about-me">
                 	<li> Created new systems to analyze and forecast product lines of future seasons.</li>
                     <li>Introduced Python scripts, Access queries and Excel Visual Basic to reduce hours spent on data processing and cleansing.</li>
                     <li>Completed analyses of colors, product types, product lines, and sales.</li>
                     <li>Devised and implemented dashboards in Tableau, allowing PM's to make data driven design decisons. </li>
                  </ul>
-                
-             </div>
-		     </div>
-           </div>
-        </div>
-   </div>
-	</main> 
+							</div>
+							<p class="c-p-about-para">
+							"Want More?" 
+								<a href="Summer_Jasinski_Resume.lnk" target="_blank" class="resume-link"> View my full resume </a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 	    
 
 </body>
