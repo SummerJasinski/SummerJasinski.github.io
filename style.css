@@ -126,22 +126,29 @@
     font-weight: lighter;
     margin-bottom: 12px;
     padding-left: 10vw;
+ 	top: 42px;
 }
 	.f-div-about-body{
 	display: inline-flex;
 }
 
 	.self-image-formatting{
-	float: left;
-    max-width: 50vw;
-    min-width: 40vw;
+    max-width: 30vw;
+    min-width: 30vw;
+		object-fit: contain;
 }
 	.f-div-about-text{
-float: right;
+	left: 40%;
+    padding-left: 10vw;
+    padding-top: 30px;
+    width: fit-content;
+    padding-right: 10vw;
+		  float: right;
     margin-left: 20px;
     right: 0;
-    left:40%;
 }
+
+
 	.c-div-job-head{
     display: flex;
     }
