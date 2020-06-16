@@ -8,6 +8,7 @@
 
  
 
+
 <body>
   <main>
 		<nav class="c-nav-bar">
@@ -93,11 +94,12 @@
 						<h3 class="c-h3-work-heading"> Work <br> Experience
 						</h3>
 							<div class="f-div-job-body">
-							<p class="c-p-about-para">
+						
+                            <button type="button" 			class="collapsible">	<p class="c-p-about-para">
 								<b class="job-title">Business Intelligence and Reporting Co-op</b>
 								<br>
 								<a href="https://www.mlb.com/redsox" class="job-co"> Boston Red Sox </a>
-							</p>
+							</p></button>
 							<div class="job-info">
 								<span class="right"> Jan 2020 - Current </span>
 								<ul class="c-ul-list-about-me">
@@ -106,13 +108,13 @@
                     <li> Perform upkeep on automated R-scripted emails containing data snapshots </li>
                     <li> New projects still to come!</li>
 					
-                 </ul>
+                 </ul>         
 							</div>
-							<p class="c-p-about-para">
+							<button type="button" 			class="collapsible"><p class="c-p-about-para">
 								<b class="job-title">Research Assistant - Financial Risk Management</b>
 								<br>
 								<a href="https://damore-mckim.northeastern.edu/" class="job-co"> Northeastern University - D'Amore-McKim </a>
-							</p>
+							</p> </button>
 							<div class="job-info">
 								<span class="right"> Sept 2019 - Dec 2019 </span>
 								<ul class="c-ul-list-about-me">
@@ -121,12 +123,13 @@
                     <li> Assisted with application of cosine similarity to article analysis </li>
                  </ul>
 							</div>
+                            <button type="button" 			class="collapsible">
 							<p class="c-p-about-para">
 								<b class="job-title">Range Architecture Co-op</b>
 								<br>
 								<a href="https://www.reebok.com/us" class="job-co"> Reebok </a>
-							</p>
-							<div class="job-info">
+							</p> </button>
+							<div class="job-info"> 
 								<span class="right"> Jan 2019 - July 2019</span>
 			<ul class="c-ul-list-about-me">
                 	<li> Created new systems to analyze and forecast product lines of future seasons.</li>
@@ -139,12 +142,29 @@
 							"Want More?" 
 								<a href="Summer_Jasinski_Resume.lnk" target="_blank" class="resume-link"> View my full resume </a>
 							</p>
+                            <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
                             </div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+
 	</main>
 	    
 
