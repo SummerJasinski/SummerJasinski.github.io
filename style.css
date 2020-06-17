@@ -1,5 +1,5 @@
 
-	  body{    background-attachment: fixed !important;
+	     body{    background-attachment: fixed !important;
     		 cursor: default;
     		 font-size: small;
    		 margin: 0;
@@ -175,6 +175,7 @@
     padding-left:0;
     position: relative;
     margin-left: 80px;
+
     }
 	#work{
 	    max-width: 1000px;
@@ -224,12 +225,13 @@
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
 	height:auto;
+    background-color:#f8e8de;
 	}
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: #ce9071;
 }
+
 	.right{
     font-style: italic;
 }
@@ -239,32 +241,34 @@
     color: darkcyan;
 }
 .c-p-about-para a:hover {
-  background-color: #F4976C;
 }
 .collapsible {
-  background-color: #eee;
-  color: #444;
   cursor: pointer;
   padding: 18px;
   border: none;
-  text-align: right;
+  text-align: left;
   outline: none;
   font-size: 15px;
+  background-color: #f9f8f4;
 }
 .collapsible:after {
   content: '\2304'; 
-  font-size: 13px;
-  color: black;
+  display: flex;
+  font-size: 23px;
   float: right;
-  margin-left: 5px;
+  margin-left: 0px;
+  
+  
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\005E"; 
+    font-size: 23px;
+  float: right;
+  margin-left: 0px;
 }
 
 .button {
-	background-color: transparent;
 	border:none;
 	text-align: left;
 	width: 44vw;
