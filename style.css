@@ -1,4 +1,4 @@
-body{    background-attachment: fixed !important;
+ body{    background-attachment: fixed !important;
     		 cursor: default;
     		 font-size: small;
    		 margin: 0;
@@ -153,6 +153,9 @@ body{    background-attachment: fixed !important;
 }
 
 
+
+
+
 	.c-div-job-head{
     display: flex;
     }
@@ -203,6 +206,18 @@ body{    background-attachment: fixed !important;
     width: 50%;
 }
 
+	.c-h3-contact-head{
+    font-size: xxx-large;
+    position: relative;
+    left: auto;
+    float: left;
+    }
+	.c-div-contact-body{
+    position: relative;
+    left: auto;
+    float: left;
+    width: 50%;
+    }
 	.f-div-about-text{
 	left: 40%;
     padding-left: 10vw;
@@ -287,4 +302,17 @@ body{    background-attachment: fixed !important;
 
 .c-p-job-para{
 	width: 75%;
+}
+
+
+.c-h3-proj-head{
+	font-size: xxx-large;
+    font-weight: lighter;
+	position: relative;
+    width:100%;
+    text-align:center;
+}
+
+.c-div-proj-body{
+	text-align:center;
 }
